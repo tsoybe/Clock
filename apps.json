@@ -184,5 +184,12 @@
     "version":"0.03",
     "description": "Displays GPS Course and Speed, + Directions to waypoint and waypoint recording, now with waypoint editor",
     "storage": []
-  }
+  },
+  { "id": "notify",
+    "name": "Notifications (default)",
+    "icon": "notify.png",
+    "version":"0.03",
+    "description": "A handler for displaying notifications that displays them in a bar at the top of the screen",
+    "storage": []
+  },
 ]
