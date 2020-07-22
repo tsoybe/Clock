@@ -36,7 +36,7 @@ function Time2Text(now) {
   let H = now.getHours();
   let M = now.getMinutes();
 
-  let T25 = M % 5; // Minuten bis zum n�chsten 5min-Step
+  let T25 = M % 5; // Minuten bis zum nächsten 5min-Step
   M -= T25;
   let Iof5 = M / 5; // Index des 5min-Steps.
 
@@ -96,8 +96,8 @@ function WriteDisplayLine(i, LineText, force) {
 
 function PrepareDisplay() {
   // Das Display hat 240x240 Pixel,
-  // 24px sind f�r Widgets
-  g.setFont("6x8", 3); // -> Zeichengr��e 18x24
+  // 24px sind für Widgets
+  g.setFont("6x8", 3); // -> Zeichengröße 18x24
   g.setFontAlign(-1, -1); //Ausrichtung Links oben
   g.setColor(0, 1, 0);
 }
@@ -117,7 +117,7 @@ Bangle.drawWidgets();
 Update(true);
 
 Bangle.on('lcdPower',function(on) {
-  //Wird ben�tigt, da Update bei off nix macht
+  //Wird benötigt, da Update bei off nix macht
   if (on)
     Update(true);
 });
