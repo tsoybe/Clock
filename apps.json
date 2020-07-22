@@ -60,51 +60,13 @@
     ]
   },
   {
-    "id": "mclock",
-    "name": "Morphing Clock",
-    "icon": "clock-morphing.png",
-    "version": "0.06",
-    "description": "7 segment clock that morphs between minutes and hours",
-    "tags": "clock",
-    "type": "clock",
-    "allow_emulator": true,
-    "storage": [
-      {
-        "name": "mclock.app.js",
-        "url": "clock-morphing.js"
-      },
-      {
-        "name": "mclock.img",
-        "url": "clock-morphing-icon.js",
-        "evaluate": true
-      }
-    ],
-    "sortorder": -9
-  },
-  {
     "id": "setting",
     "name": "Settings",
-    "icon": "settings.png",
+    "icon": "../bangle.png",
     "version": "0.20",
     "description": "A menu for setting up Bangle.js",
-    "tags": "tool,system",
-    "readme": "README.md",
     "storage": [
-      {
-        "name": "setting.app.js",
-        "url": "settings.js"
-      },
-      {
-        "name": "setting.boot.js",
-        "url": "boot.js"
-      },
-      {
-        "name": "setting.img",
-        "url": "settings-icon.js",
-        "evaluate": true
-      }
-    ],
-    "sortorder": -2
+    ]
   },
   {
     "id": "alarm",
