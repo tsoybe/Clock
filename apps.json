@@ -169,5 +169,12 @@
     "version": "0.01",
     "description": "Provides assistance while performing a CPR",
     "storage": []
+  },
+  { "id": "calendar",
+    "name": "Calendar",
+    "icon": "calendar.png",
+    "version": "0.01",
+    "description": "Simple calendar",
+    "storage": []
   }
 ]
