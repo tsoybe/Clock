@@ -133,8 +133,7 @@
   {
     "id": "hidbkbd",
     "name": "Binary Bluetooth Keyboard",
-    "shortName": "Binary BT Kbd",
-    "icon": "hid-binary-keyboard.png",
+    "icon": "../bangle.png",
     "version": "0.02",
     "description": "Enable HID in settings, pair with your phone/PC, then type messages using the onscreen keyboard by tapping repeatedly on the key you want",
     "storage": []
@@ -142,7 +141,7 @@
   {
     "id": "blescan",
     "name": "BLE Scanner",
-    "icon": "blescan.png",
+    "icon": "../bangle.png",
     "version": "0.01",
     "description": "Scan for advertising BLE devices",
     "storage": []
@@ -150,7 +149,7 @@
   {
     "id": "gpsinfo",
     "name": "GPS Info",
-    "icon": "gps-info.png",
+    "icon": "../bangle.png",
     "version": "0.03",
     "description": "An application that displays information about altitude, lat/lon, satellites and time",
     "storage": []
@@ -158,8 +157,7 @@
   {
     "id": "bledetect",
     "name": "BLE Detector",
-    "shortName": "BLE Detector",
-    "icon": "bledetect.png",
+    "icon": "../bangle.png",
     "version": "0.02",
     "description": "Detect BLE devices and show some informations.",
     "storage": []
@@ -167,7 +165,7 @@
   {
     "id": "cprassist",
     "name": "CPR Assist",
-    "icon": "cprassist-icon.png",
+    "icon": "../bangle.png",
     "version": "0.01",
     "description": "Provides assistance while performing a CPR",
     "storage": []
