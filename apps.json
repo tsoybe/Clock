@@ -1,7 +1,28 @@
-[
-{ "id": "boot",
-  "version":"0.00"
+[{ "id": "tsoy_launcher",
+  "name": "Tsoy Launcher",
+  "shortName":"Tsoy Launcher",
+  "icon": "app.png",
+  "version":"0.01",
+  "description": "Keine Beschreibung notwendig",
+  "tags": "",
+  "storage": [
+    {"name":"tsoy_launcher.app.js","url":"app.js"},
+    {"name":"tsoy_launcher.img","url":"app-icon.js","evaluate":true}
+  ]
 },
+  { "id": "boot",
+    "name": "Bootloader",
+    "icon": "bootloader.png",
+    "version":"0.19",
+    "description": "This is needed by Bangle.js to automatically load the clock, menu, widgets and settings",
+    "tags": "tool,system",
+    "type":"bootloader",
+    "storage": [
+      {"name":".boot0","url":"boot0.js"},
+      {"name":".bootcde","url":"bootloader.js"}
+    ],
+    "sortorder" : -10
+  },
   { "id": "moonphase",
     "name": "Moonphase",
     "icon": "app.png",
@@ -1357,7 +1378,7 @@
     "version":"0.08",
     "description": "A simple big numerals clock",
     "tags": "numerals,clock",
-    "type":"clock",
+	"type":"clock",
     "allow_emulator":true,
     "storage": [
       {"name":"numerals.app.js","url":"numerals.app.js"},
