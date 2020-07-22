@@ -54,7 +54,7 @@
     "id": "gbridge",
     "name": "Gadgetbridge",
     "icon": "../bangle.png",
-    "version": "0.17",
+    "version": "0.16",
     "description": "The default notification handler for Gadgetbridge notifications from Android",
     "storage": []
   },
