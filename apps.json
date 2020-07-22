@@ -5,6 +5,7 @@
     "icon": "app.png",
     "version": "0.01",
     "description": "Keine Beschreibung notwendig",
+    "allow_emulator": true,
     "tags": "",
     "storage": [
       {
@@ -172,9 +173,16 @@
   },
   { "id": "calendar",
     "name": "Calendar",
-    "icon": "calendar.png",
+    "icon": "../bangle.png",
     "version": "0.01",
     "description": "Simple calendar",
+    "storage": []
+  },
+  { "id": "gpsnav",
+    "name": "GPS Navigation",
+    "icon": "../bangle.png",
+    "version":"0.03",
+    "description": "Displays GPS Course and Speed, + Directions to waypoint and waypoint recording, now with waypoint editor",
     "storage": []
   }
 ]
