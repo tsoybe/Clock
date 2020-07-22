@@ -2,7 +2,7 @@
   {
     "id": "tsoy_ble",
     "name": "Tsoy BLE",
-    "icon": "app.png",
+    "icon": "../tsoy_launcher/app.png",
     "version": "0.01",
     "description": "Keine Beschreibung notwendig",
     "allow_emulator": true,
@@ -22,7 +22,7 @@
   {
     "id": "tsoy_clock",
     "name": "Tsoy Clock",
-    "icon": "app.png",
+    "icon": "../tsoy_launcher/app.png",
     "version": "0.01",
     "description": "Keine Beschreibung notwendig",
     "allow_emulator": true,
