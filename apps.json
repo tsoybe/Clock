@@ -10,6 +10,15 @@
     {"name":"tsoy_launcher.img","url":"app-icon.js","evaluate":true}
   ]
 },
+{ "id": "locale",
+  "name": "Languages",
+  "icon": "../unknown.png",
+  "version":"0.00",
+  "description": "",
+  "tags": "",
+  "storage": [
+  ]
+},
   { "id": "boot",
     "name": "Bootloader",
     "icon": "bootloader.png",
@@ -72,20 +81,6 @@
       {"name":"about.app.js","url":"app.js"},
       {"name":"about.img","url":"app-icon.js","evaluate":true}
     ]
-  },
-  { "id": "locale",
-    "name": "Languages",
-    "icon": "locale.png",
-    "version":"0.07",
-    "description": "Translations for different countries",
-    "tags": "tool,system,locale,translate",
-    "type": "locale",
-    "custom":"locale.html",
-    "readme": "README.md",
-    "storage": [
-      {"name":"locale"}
-    ],
-    "sortorder" : -10
   },
   { "id": "notify",
     "name": "Notifications (default)",
