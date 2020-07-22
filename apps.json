@@ -71,92 +71,18 @@
   {
     "id": "alarm",
     "name": "Default Alarm",
-    "shortName": "Alarms",
     "icon": "../bangle.png",
     "version": "0.10",
     "description": "Set and respond to alarms",
-    "tags": "tool,alarm,widget",
     "storage": [
-      {
-        "name": "alarm.app.js",
-        "url": "app.js"
-      },
-      {
-        "name": "alarm.boot.js",
-        "url": "boot.js"
-      },
-      {
-        "name": "alarm.js",
-        "url": "alarm.js"
-      },
-      {
-        "name": "alarm.img",
-        "url": "app-icon.js",
-        "evaluate": true
-      },
-      {
-        "name": "alarm.wid.js",
-        "url": "widget.js"
-      }
-    ],
-    "data": [
-      {
-        "name": "alarm.json"
-      }
-    ]
-  },
-  {
-    "id": "wclock",
-    "name": "Word Clock",
-    "icon": "clock-word.png",
-    "version": "0.02",
-    "description": "Display Time as Text",
-    "tags": "clock",
-    "type": "clock",
-    "allow_emulator": true,
-    "storage": [
-      {
-        "name": "wclock.app.js",
-        "url": "clock-word.js"
-      },
-      {
-        "name": "wclock.img",
-        "url": "clock-word-icon.js",
-        "evaluate": true
-      }
     ]
   },
   {
     "id": "imgclock",
     "name": "Image background clock",
-    "shortName": "Image Clock",
     "icon": "../bangle.png",
     "version": "0.07",
     "description": "A clock with an image as a background",
-    "tags": "clock",
-    "type": "clock",
-    "custom": "custom.html",
-    "storage": [
-      {
-        "name": "imgclock.app.js",
-        "url": "app.js"
-      },
-      {
-        "name": "imgclock.img",
-        "url": "app-icon.js",
-        "evaluate": true
-      },
-      {
-        "name": "imgclock.face.img"
-      },
-      {
-        "name": "imgclock.face.json"
-      },
-      {
-        "name": "imgclock.face.bg",
-        "content": ""
-      }
-    ]
   },
   {
     "id": "impwclock",
