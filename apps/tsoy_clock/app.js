@@ -27,16 +27,16 @@ function a2B(Buffer, Text) {
 }
 
 function Time2Text(now) {
-  const MinArray = ["", "fünf nach", "zehn nach", "viertel nach", "zwanzig nach", "fünf vor halb", "halb", "fünf nach halb", "zwanzig vor", "viertel vor", "zehn vor", "fünf vor"];
+  const MinArray = ["", "fÃ¼nf nach", "zehn nach", "viertel nach", "zwanzig nach", "fÃ¼nf vor halb", "halb", "fÃ¼nf nach halb", "zwanzig vor", "viertel vor", "zehn vor", "fÃ¼nf vor"];
   const MinNextIndex = 5;
-  const HourArray = ["zwölf", "eins", "zwei", "drei", "vier", "fünf", "sechs", "sieben", "acht", "neun", "zehn", "elf"];
+  const HourArray = ["zwÃ¶lf", "eins", "zwei", "drei", "vier", "fÃ¼nf", "sechs", "sieben", "acht", "neun", "zehn", "elf"];
   const ToMinArray = ["", "bisschen nach", "bald", "gleich", "fast"];
   const ToNextMinIndex = 2;
 
   let H = now.getHours();
   let M = now.getMinutes();
 
-  let T25 = M % 5; // Minuten bis zum nächsten 5min-Step
+  let T25 = M % 5; // Minuten bis zum nï¿½chsten 5min-Step
   M -= T25;
   let Iof5 = M / 5; // Index des 5min-Steps.
 
@@ -96,8 +96,8 @@ function WriteDisplayLine(i, LineText, force) {
 
 function PrepareDisplay() {
   // Das Display hat 240x240 Pixel,
-  // 24px sind für Widgets
-  g.setFont("6x8", 3); // -> Zeichengröße 18x24
+  // 24px sind fï¿½r Widgets
+  g.setFont("6x8", 3); // -> Zeichengrï¿½ï¿½e 18x24
   g.setFontAlign(-1, -1); //Ausrichtung Links oben
   g.setColor(0, 1, 0);
 }
@@ -117,7 +117,7 @@ Bangle.drawWidgets();
 Update(true);
 
 Bangle.on('lcdPower',function(on) {
-  //Wird benötigt, da Update bei off nix macht
+  //Wird benï¿½tigt, da Update bei off nix macht
   if (on)
     Update(true);
 });
