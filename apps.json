@@ -5,7 +5,6 @@
     "icon": "../tsoy_launcher/app.png",
     "version": "0.01",
     "description": "Keine Beschreibung notwendig",
-    "allow_emulator": true,
     "tags": "",
     "storage": [
       {
@@ -46,7 +45,6 @@
     "icon": "app.png",
     "version": "0.01",
     "description": "Keine Beschreibung notwendig",
-    "allow_emulator": true,
     "tags": "",
     "storage": [
       {
