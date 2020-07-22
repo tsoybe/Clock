@@ -56,8 +56,7 @@
     "icon": "../bangle.png",
     "version": "0.17",
     "description": "The default notification handler for Gadgetbridge notifications from Android",
-    "storage": [
-    ]
+    "storage": []
   },
   {
     "id": "setting",
@@ -65,8 +64,7 @@
     "icon": "../bangle.png",
     "version": "0.20",
     "description": "A menu for setting up Bangle.js",
-    "storage": [
-    ]
+    "storage": []
   },
   {
     "id": "alarm",
@@ -74,8 +72,7 @@
     "icon": "../bangle.png",
     "version": "0.10",
     "description": "Set and respond to alarms",
-    "storage": [
-    ]
+    "storage": []
   },
   {
     "id": "imgclock",
@@ -83,6 +80,7 @@
     "icon": "../bangle.png",
     "version": "0.07",
     "description": "A clock with an image as a background",
+    "storage": []
   },
   {
     "id": "impwclock",
